@@ -1,0 +1,14 @@
+.card-width {
+  width: 200px;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.task {
+  text-align: center;
+  border: 1px solid gray;
+}
