@@ -1,3 +1,7 @@
+/* .drag-container {
+  z-index: 3;
+} */
+
 .card-width {
   width: 200px;
 }
@@ -11,4 +15,12 @@
 .task {
   text-align: center;
   border: 1px solid gray;
+  z-index: 4;
+}
+#list-one {
+  z-index: 4;
+}
+
+#list-two {
+  z-index: 3;
 }
