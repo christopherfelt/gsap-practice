@@ -24,6 +24,9 @@ Draggable.create("#drag-square", {
   onDragEnd: function () {
     if (taskInListTwo) {
       moveTask.style.display = "none";
+      // listTwo.appendChild(moveTask.cloneNode(true));
     }
   },
 });
+
+// light-server -s . -p 7000
